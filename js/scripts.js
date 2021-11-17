@@ -358,4 +358,11 @@ jQuery(function ($) {
         }
     }
 
+    var navHeight = $('#navbar').height();
+    $('#buy').css({
+        "top": navHeight + 5,
+        "right": 0,
+        "position": "fixed"
+    });
+
 }); // JQuery end
