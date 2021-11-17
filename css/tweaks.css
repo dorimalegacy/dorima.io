@@ -2217,12 +2217,11 @@ svg:not(:root).svg-inline--fa {
 }
 
 .uniswap_btn {
-
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    transition: all .25s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .uniswap_btn:hover, .uniswap_btn:active {
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
 }
