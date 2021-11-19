@@ -1693,6 +1693,11 @@ p.lead:first-letter {
     .sectionBGimage {
         height: 100%;
     }
+
+    .roadmapSize {
+        height: 1600px !important;
+        margin-bottom: -200px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
