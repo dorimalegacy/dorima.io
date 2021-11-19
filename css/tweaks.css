@@ -1729,6 +1729,10 @@ p.lead:first-letter {
     .navbar-brand {
         margin-left: 0;
     }
+
+    .sectionBGimage {
+        height: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1742,6 +1746,10 @@ p.lead:first-letter {
 
     .navbar-brand {
         margin-left: 0;
+    }
+    
+    .sectionBGimage {
+        height: auto;
     }
 }
 
