@@ -945,7 +945,7 @@ input[type]:-ms-input-placeholder, select.form-control.has-value, select:-ms-inp
 }
 
 .custom-breadcrumb .breadcrumb-item + .breadcrumb-item:before {
-    font-family: themify;
+    font-family: themify, sans-serif;
     content: "\e649";
     font-size: 10px;
     color: #fff;
@@ -1605,6 +1605,21 @@ p.lead:first-letter {
     height: 1024px;
 }
 
+.roadmap-line-done {
+    height: 10px;
+    background: darkgreen;
+}
+
+.roadmap-line-progress {
+    height: 10px;
+    background: darkorange;
+}
+
+.roadmap-line-start {
+    height: 10px;
+    background: darkred;
+}
+
 @media (min-width: 320px) and (max-width: 575px) {
     html {
         font-size: 14px
@@ -1674,11 +1689,11 @@ p.lead:first-letter {
     }
 
     .img-top {
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
 
     .navbar-brand {
-        margin-left: 0px;
+        margin-left: 0;
     }
 }
 
@@ -1708,11 +1723,11 @@ p.lead:first-letter {
     }
 
     .img-top {
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
 
     .navbar-brand {
-        margin-left: 0px;
+        margin-left: 0;
     }
 }
 
@@ -1722,11 +1737,11 @@ p.lead:first-letter {
     }
 
     .img-top {
-        margin-top: 0px !important;
+        margin-top: 0 !important;
     }
 
     .navbar-brand {
-        margin-left: 0px;
+        margin-left: 0;
     }
 }
 
@@ -2185,27 +2200,7 @@ svg:not(:root).svg-inline--fa {
     width: auto;
 }
 
-.svg-inline--fa .fa-primary {
-    fill: var(--fa-primary-color, currentColor);
-    opacity: 1;
-    opacity: var(--fa-primary-opacity, 1);
-}
 
-.svg-inline--fa .fa-secondary {
-    fill: var(--fa-secondary-color, currentColor);
-    opacity: 0.4;
-    opacity: var(--fa-secondary-opacity, 0.4);
-}
-
-.svg-inline--fa.fa-swap-opacity .fa-primary {
-    opacity: 0.4;
-    opacity: var(--fa-secondary-opacity, 0.4);
-}
-
-.svg-inline--fa.fa-swap-opacity .fa-secondary {
-    opacity: 1;
-    opacity: var(--fa-primary-opacity, 1);
-}
 
 .svg-inline--fa mask .fa-primary,
 .svg-inline--fa mask .fa-secondary {
@@ -2225,3 +2220,4 @@ svg:not(:root).svg-inline--fa {
 .uniswap_btn:hover, .uniswap_btn:active {
     transform: rotate(-10deg);
 }
+
