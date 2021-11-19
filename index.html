@@ -76,9 +76,8 @@
                     <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link page-scroll" href="#legacy">
-                                    Legacy
-                                </a>
+                                <a class="nav-link page-scroll" href="#legacy"
+                                   role="button" aria-haspopup="true" aria-expanded="false">Legacy</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link page-scroll" href="#about">About</a>
@@ -101,19 +100,19 @@
             </nav>
             <!--end navbar-->
         </header>
-        <div style="text-align: right;" id="buy">
-            <div>
+        <div style="text-align: right; z-index: 1000000;" id="buy" class="side-menu">
+            <div class="buy-btn">
                 <a class="btn mr-md-2"
                    href="#"
                    target="_blank"
-                   style="width:80px; height:80px; border-radius: 50%; border: none; background: url('./img/dextools80.png') center no-repeat">
+                   style="background: url('./img/dextools80.png') center no-repeat">
                 </a>
             </div>
-            <div>
+            <div class="buy-btn">
                 <a class="btn uniswap_btn"
                    href="#"
                    target="_blank"
-                   style="width:80px; height:80px; border-radius: 50%;border: none; background: url('./img/uniswap100.png') center no-repeat;">
+                   style="background: url('./img/uniswap100.png') center no-repeat;">
                 </a>
                 <!--                                    <a class="btn mr-md-2"-->
                 <!--                                       href="https://www.dextools.io/app/ether/pair-explorer/insertContractAddress"-->
@@ -320,7 +319,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-lg-3 col-md-3">
                         <div class="card roadmap-item">
                             <div class="roadmap-line-done">
                             </div>
@@ -339,7 +338,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-lg-3 col-md-3">
                         <div class="card roadmap-item">
                             <div class="roadmap-line-progress">
                             </div>
@@ -358,7 +357,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-lg-3 col-md-3">
                         <div class="card roadmap-item">
                             <div class="roadmap-line-start">
                             </div>
@@ -376,7 +375,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-lg-3 col-md-3">
                         <div class="card roadmap-item">
                             <div class="roadmap-line-start">
                             </div>
@@ -425,7 +424,7 @@
                     </div>
                 </div>
             </div>
-            <div id="social" style="position: fixed; right: 10px; bottom: 0">
+            <div id="social" class="side-menu">
                 <div class="social-list list-inline list-unstyled mb-3 space-2x">
                     <a data-v-b104638e="" href="#" target="_blank"
                        title="Telegram">

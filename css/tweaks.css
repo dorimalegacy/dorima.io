@@ -1597,13 +1597,6 @@ p.lead:first-letter {
     color: #836494
 }
 
-.img-top {
-    margin-top: -150px;
-}
-
-.sectionBGimage {
-    height: 1024px;
-}
 
 .roadmap-line-done {
     height: 10px;
@@ -1619,6 +1612,7 @@ p.lead:first-letter {
     height: 10px;
     background: darkred;
 }
+
 
 @media (min-width: 320px) and (max-width: 575px) {
     html {
@@ -1695,6 +1689,10 @@ p.lead:first-letter {
     .navbar-brand {
         margin-left: 0;
     }
+
+    .sectionBGimage {
+        height: 100%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1731,8 +1729,9 @@ p.lead:first-letter {
     }
 
     .sectionBGimage {
-        height: auto;
+        height: 100%;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1747,10 +1746,32 @@ p.lead:first-letter {
     .navbar-brand {
         margin-left: 0;
     }
-    
+
     .sectionBGimage {
-        height: auto;
+        height: 100%;
     }
+
+}
+@media (min-width: 992px) {
+    .sectionBGimage {
+        height: 1024px;
+    }
+}
+
+
+#buy a {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+}
+
+.side-menu {
+    z-index: 1000000;
+}
+
+#social {
+    position: fixed; right: 10px; bottom: 0;
 }
 
 
