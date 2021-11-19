@@ -355,7 +355,7 @@ input[type]:-ms-input-placeholder, select.form-control.has-value, select:-ms-inp
     height: auto;
     padding: 0;
     margin-bottom: -8px;
-    margin-left: -90px;
+    margin-left: 100px;
 }
 
 .navbar-toggler {
