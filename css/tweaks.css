@@ -1758,22 +1758,12 @@ p.lead:first-letter {
     }
 }
 
-
-#buy a {
-    width: 80px;
-    height: 80px;
+.buy-btn {
+    width:80px;
+    height:80px;
     border-radius: 50%;
-    border: none;
+    border-style: none;
 }
-
-.side-menu {
-    z-index: 1000000;
-}
-
-#social {
-    position: fixed; right: 10px; bottom: 0;
-}
-
 
 /*IKONICE*/
 svg:not(:root).svg-inline--fa {
