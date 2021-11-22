@@ -1600,17 +1600,17 @@ p.lead:first-letter {
 
 .roadmap-line-done {
     height: 10px;
-    background: darkgreen;
+    background: rgba(90, 60, 90, 1);
 }
 
 .roadmap-line-progress {
     height: 10px;
-    background: darkorange;
+    background: rgba(90, 60, 90, 0.5);;
 }
 
 .roadmap-line-start {
     height: 10px;
-    background: darkred;
+    background: rgba(90, 60, 90, 0.2);;
 }
 
 
